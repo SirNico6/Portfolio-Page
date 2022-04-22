@@ -4,103 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicolás Arévalo</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Web Portfolio</title>
+    <script src="https://kit.fontawesome.com/4fc2551b55.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="header">
         <div class="header-head">
-            Portfiolio Web
+            <div class="logo">Developer</div>
             <ul class="head-list">
-                <li><a>About me</a></li>
-                <li>Technologies</li>
-                <li>Contact</li>
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#techs">Knowledge</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-        <div class="header-body">
-            <div class="about-me">
-                <h2>I'm Nicolás Arévalo Front End Dev</h2>
-                <p>
-                    This is my professional portfolio to introduce myself.
-                    Here you will find the technologies wich I'm working and projects with them,
-                    apps and tools that I use as a developer and also my contact data.
-                    Hope you enjoy! ;)
-                </p>
-            </div>
-            <div class="image">
-                <img src="./img/me.jpeg" style="width: 250px; height: auto;">
+        <div class="container">
+            <div class="header-body">
+                <div id="aboutme" class="about-me">
+                    <h2>Hi! I'm Nicolás Arévalo a Front End Dev</h2>
+                    <p>
+                        This is my professional portfolio to introduce myself.
+                        Here you will find the technologies wich I'm working and projects with them,
+                        apps and tools that I use as a developer and also my contact data.
+                        Hope you enjoy!
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="./img/me.jpeg" style="width: 250px; height: auto; border-radius: 50px;">
+                </div>
             </div>
         </div>
     </div>
-    <div class="content">
-        <div class="content-tech">
-            <h3>Technologies</h3>
-            <div class="container">
-                <div class="card" style="border: blue 2px solid; width: 100px;">
-                    HTML & CSS
-                    <img src="./img/html&css.jpg" style="width: 150px; height: auto;"></img>
-                    <div class="text">HTML Y CSS JAJAJAJA</div>
+    <div id="techs" class="content-tech">
+        <h3>Technologies</h3>
+        <div class="container">
+            <div class="tech">
+                <div class="card">
+                    <h4>HTML & CSS</h4>
+                    <img src="./img/html&css.png" style="width: 170px; height: 100px;"></img>
                 </div>
-                <div class="card" style="border: blue 2px solid; width: 100px;">
-                    TypeScript
-                    <img src="./img/typescript.png" style="width: 150px; height: auto;"></img>
-                    <div class="text">TypeScript osea JavaScript pero mejor</div>
+                <p>HTML & CSS are the bases of web development and are present in all web projects</p>
+            </div>
+            <div class="tech">
+                <div class="card">
+                    <h4>TypeScript</h4>
+                    <img src="./img/typescript.png" style="width: 100px; height: 100px;"></img>
                 </div>
-                <div class="card" style="border: blue 2px solid; width: 100px;">
-                    Angular
-                    <img src="./img/angular.png" style="width: 150px; height: auto;"></img>
-                    <div class="text">Angular (Angular > React)</div>
+                <p>
+                    This is my main programming language.
+                    It is a strict syntactical superset of JavaScript.
+                    I been using it in my web projects for almost a year.
+                </p>
+            </div>
+            <div class="tech">
+                <div class="card">
+                    <h4>Angular</h4>
+                    <img src="./img/angular.png" style="width: 100px; height: 100px;"></img>
                 </div>
-                <div class="card" style="border: blue 2px solid; width: 100px;">
-                    Java
-                    <img src="./img/java.jpg" style="width: 150px; height: auto;"></img>
-                    <div class="text">Java (El mejor primer lenguaje)</div>
+                <p>
+                    Angular is a TypeScript-based free and open-source web application framework.
+                    I been working developing web apps with this framework
+                </p>
+            </div>
+            <div class="tech">
+                <div class="card">
+                    <h4>Java</h4>
+                    <img src="./img/java.png" style="width: 100px; height: 100px;"></img>
                 </div>
+                <p>
+                    Java was the first programming language I learned, with it I developed many academic projects,
+                    such as desktop applications, web applications (FrontEnd & BackEnd), connections to databases (CRUD).
+                </p>
             </div>
         </div>
-        <div class="content-tools">
-            <div class="container">
-                <h3>Tools</h3>
+    </div>
+    <div class="content-tools">
+        <h3>Tools</h3>
+        <p>
+            The tools that I have used so far are the basic and fundamental ones for any developer,
+            these are...
+        </p>
+        <ul>
+            <li><a href="https://git-scm.com/" target="_blank">Git</a></li>
+            <li><a href="https://github.com/about" target="_blank">GitHub</a></li>
+            <li><a href="https://about.gitlab.com/" target="_blank">GitLab</a></li>
+            <li><a href="https://www.postman.com/" target="_blank">Postman</a></li>
+            <li><a href="https://www.json.org/json-en.html" target="_blank">JSON</a></li>
+        </ul>
+        <p>
+            I also worked with agile methodologies in academic projects
+            (<a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" target="_blank">SCRUM</a>)
+              accompanied by
+            the use of <a href="https://trello.com/en/tour" target="_blank">Trello</a>,
+             with this I developed excellent communication with my colleagues
+            at the university
+        </p>
+        <h3>Projects</h3> 
+        <i style="font-size: small;">(working on...)</i>
+        <p><b><i>I still studing and working on personal projects, meanwhile these are my projects.</i></b></p>
+        <p>
+            I started developing two smalls games to practice programming,
+            with this I learned a lot about software development. You can see more about the projects on this web:
+            <a href="https://gamejolt.com/@sirnico/games" target="_blank">Indie Games Projects</a>
+        </p>
+        <p>
+            I'm currently working as a freelance frontend developer, for a software company,
+            I work with Angular, but these projects are private and therefore I can't show them.
+        </p>
+    </div>
+    <div class="container-small">
+        <div id="contact" class="content-contact">
+            <div class="text">
+                <h3>Contact me!</h3>
                 <p>
-                    The tools that I have used so far are the basic and fundamental ones for any developer,
-                    these are...
+                    If you are interested in my profile you can contact me through my social networks
                 </p>
                 <ul>
-                    <li>Git (Command Line)</li>
-                    <li>GitHub & GitLab</li>
-                    <li>Postman</li>
-                    <li>JSON</li>
+                    <li><i class="fa-brands fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/nicol%C3%A1s-ar%C3%A9valo-rodriguez-9b9abb1ba" target="_blank">LinkedIn</a></li>
+                    <li>Or</li>
+                    <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/nicoarevalo3/" target="_blank">Instagram</a></li>
                 </ul>
-                <p>
-                    I also worked with agile methodologies in academic projects accompanied by
-                    the use of trello, with this I developed excellent communication with my colleagues
-                    at the university
-                </p>
-            </div>
-        </div>
-        <div class="content-projects">
-            <div class="container">
-                <h3>Projects (working on...)</h3>
-                <p>These are my projects</p>
-                <ul>
-                    <li>Project 1</li>
-                    <li>Project 2</li>
-                    <li>Project 3</li>
-                    <li>Project 4</li>
-                </ul>
-            </div>
-        </div>
-        <div class="content-contact">
-            <div class="container">
-                <p>
-                  If you are interested in my portfolio
-                you can get my contact information through this button.  
-                </p>
-                <button>Contact me!</button>
             </div>
         </div>
     </div>
     <div class="footer">
-        <p>Created By <a href="https://github.com/SirNico6" target="_blank">SirNico6</a></p>
+        <p>Copyright © - <i class="fa-brands fa-github"></i> <a href="https://github.com/SirNico6" target="_blank">SirNico6</a></p>
     </div>
 </body>
 </html>
