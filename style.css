@@ -153,6 +153,11 @@ div.card img {
     word-wrap: break-word;
 }
 
+.jobExperience {
+    margin-left: 15px; 
+    margin-right: 15px;
+}
+
 div.content-tools ul,
 div.content-projects ul,
 div.content-contact ul {
